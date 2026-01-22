@@ -32,15 +32,22 @@ Follow these steps to get the project running on your local machine.
 
 2.  **Clone your fork**
     ```bash
-    git clone https://github.com/YOUR-USERNAME/Smart-Rent-System.git
-    cd Smart-Rent-System
+    git clone https://github.com/YOUR-USERNAME/Trip-Commander.git
+    cd Trip-Commander
     ```
 
 3.  **Setup Backend**
     ```bash
     cd backend
     npm install
-    # Create a .env file and add your MongoDB URL and other secrets
+    # Create a .env file and add
+    PORT=3000
+    DB_HOST=localhost
+    DB_USER=user
+    DB_PASSWORD=your_password
+    DB_NAME=db_name
+    DB_PORT=5432
+
     npm run dev
     ```
 
@@ -120,3 +127,4 @@ Maintainers will review your PR as soon as possible.
 - If changes are needed, you will receive comments. Please address them and re-request review.
 
 Thank you for contributing to Trip Commander ! Happy coding! 💻
+
